@@ -1,0 +1,70 @@
+body {
+  background-color: #ffe5e9;
+}
+
+h1 {
+  text-align: center;
+  color: darkblue;
+}
+
+#race-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#result {
+  position: absolute;
+  background-color: yellow;
+  border-color: black;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  border: medium solid green;
+  line-height: 200px;
+}
+
+.track {
+  height: 80px;
+  display: flex;
+}
+
+.racing-track {
+  flex-grow: 10;
+  position: relative;
+  background-image: url('../images/resources/road.png');
+  background-size: contain;
+  transform: skewX(-15deg);
+}
+
+.finishing-track {
+  flex-grow: 1;
+  height: 80%;
+  background-image: url('../images/resources/finishingTrack.jpg');
+  background-size: contain;
+  align-self: center;
+  transform: skewX(-15deg);
+  z-index: -1;
+}
+
+#player, #computer {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 10%;
+  transform: skewX(15deg);
+}
+
+button, select {
+  height: 2rem;
+}
+
+#accelerate-btn {
+  background-color: lightgreen;
+}
+
+#restart-btn {
+  background-color: lightblue;
+}

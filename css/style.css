@@ -1,0 +1,419 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  color: #64707b;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h3 {
+  color: #41464b;
+}
+
+#home {
+  height: 100%;
+  width: 100%;
+}
+
+#home-cover {
+  height: 100%;
+  width: 100%;
+  background-image: url('/images/emile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#home-content-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+
+#home-heading h3 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+#about {
+  padding: 50px 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+    border-bottom: 1px solid #dcd9d9;
+}
+
+#about h2 {
+  color: #374054;
+  text-align: center;
+
+
+}
+
+#about p {
+  color: #74808a;
+  margin-bottom: 50px;
+}
+
+#projects {
+  padding: 50px 15px;
+  border-bottom: 1px solid #dcd9d9;
+  background: #f2f2f5;
+  text-align: center;
+}
+
+#projects h2 {
+  color: #374054;
+  margin-bottom: 50px
+}
+
+.project {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.project-image {
+  float: left;
+  overflow: hidden;
+  top: 50%;
+  padding: 40px
+}
+
+.project-image img {
+  height: 350px;
+  width: 350px;
+}
+
+
+.project-info {
+  top: 50%;
+  margin-left: 300px;
+  padding: 65px
+}
+
+.project-info h3 {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #374054;
+  margin: 0 0 15px 0
+}
+
+.project-info h4 {
+  font-size: 1.1em;
+  font-weight: 300;
+  color: #374054;
+
+}
+
+.project-info p {
+  color: #74808a;
+  margin: 0 0 15px 0;
+  font-size: 0.9em
+}
+
+#more-projects {
+  display: none
+}
+
+#skills {
+  padding: 50px 15px;
+  text-align: center;
+    border-bottom: 1px solid #dcd9d9;
+}
+
+#skills h2 {
+  color: #374054;
+  margin-bottom: 50px
+}
+
+#skills ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px
+}
+
+#skills li {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: #374054;
+  background: #e4e4ea;
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em
+}
+  .shadow-large {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+  }
+
+   .background-alt {
+    background: #f2f2f5
+    }
+
+    .heading {
+      text-align: center;
+      display: inline-block;
+      font-size: 2em;
+      font-weight: 300;
+      margin: 0 0 30px 0;
+
+    }
+
+    footer#main-footer {
+
+      color: #fff;
+    }
+
+    #page-header {
+      height: 200px;
+      background: url("../img/image1.jpg");
+      background-position: 0 -360px;
+      background-attachment: fixed;
+      color: #fff;
+      border-bottom: 1px #eee solid;
+      padding-top: 50px;
+    }
+
+    #about img {
+      margin-top: -50px;
+    }
+
+
+
+#staff {
+  border-bottom: 1px solid #dcd9d9;
+}
+
+
+
+
+.contactcolor {
+  color: white;
+
+}
+
+hr {
+  border-top: 1px solid white;
+}
+
+#contact {
+  padding: 50px 15px;
+  background: #3498db;
+  text-align: center
+}
+
+#contact h2 {
+  margin: 0 0 15px 0;
+  color: #fff;
+  font-weight: 500
+}
+
+#contact-form {
+  max-width: 500px;
+  margin: 0 auto
+}
+
+#contact-form input,
+#contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 10px;
+  background: #1d6fa5;
+  color: #fff;
+  transition: .5s ease all
+}
+
+#contact-form input::-webkit-input-placeholder,
+#contact-form textarea::-webkit-input-placeholder {
+  color: #fff
+}
+
+#contact-form input:-moz-placeholder,
+#contact-form textarea:-moz-placeholder {
+  color: #fff;
+  opacity: 1
+}
+
+#contact-form input::-moz-placeholder,
+#contact-form textarea::-moz-placeholder {
+  color: #fff;
+  opacity: 1
+}
+
+#contact-form input:-ms-input-placeholder,
+#contact-form textarea:-ms-input-placeholder {
+  color: #fff
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  background: #16527a
+}
+
+#contact-form textarea {
+  height: 150px;
+  resize: non
+}
+
+#contact-form button {
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: none;
+  color: #3498db;
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: .5s ease all
+}
+
+#contact-form button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)
+}
+
+.footercolor > p {
+  color: white;
+}
+
+.staffimg {
+  height: 220px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.staffac {
+  height: 220px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.staffimg img {
+  height: 90px;
+  width: 300px;
+}
+
+.staffac img {
+  height: 90px;
+  width: 100px;
+}
+
+.container > h1 {
+  padding-bottom: 50px;
+}
+
+.aboutimg {
+  height: 350px;
+  width: 600px;
+  overflow: hidden;
+}
+
+.aboutimg img {
+  height: 350px;
+  width: 600px;
+}
+
+footer {
+  padding: 50px 0
+}
+
+.copyright {
+  padding-top: 20px
+}
+
+.copyright p {
+  margin: 0;
+  color: #74808a
+}
+
+.social {
+  text-align: right
+}
+
+.social ul {
+  margin: 5px 0 0 0;
+  padding: 0
+}
+
+.social li {
+  display: inline-block;
+  font-size: 1.25em;
+  list-style: none
+}
+
+.social a {
+  display: block;
+  color: #74808a;
+  padding: 10px
+}
+
+.social a:hover {
+  color: #3498db
+}
+
+@media only screen and (max-width: 768px) {
+
+  .project-image {
+    display: none
+  }
+  .project-info {
+    position: relative;
+    margin: 0;
+    padding: 30px 15px;
+    top: auto;
+    transform: none
+  }
+  footer {
+    text-align: center
+  }
+  .social {
+    text-align: center
+  }
+}
+
+.comment {
+  padding: 0px;
+}
+
+footer {
+  padding: 80px 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-content p {
+  line-height: 22px;
+}
+
+.footer-social-icon a i {
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
