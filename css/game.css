@@ -34,7 +34,7 @@ h1 {
 .racing-track {
   flex-grow: 10;
   position: relative;
-  background-image: url('../images/resources/road.png');
+  background-image: url('/images/resources/road.png');
   background-size: contain;
   transform: skewX(-15deg);
 }
@@ -42,7 +42,7 @@ h1 {
 .finishing-track {
   flex-grow: 1;
   height: 80%;
-  background-image: url('../images/resources/finishingTrack.jpg');
+  background-image: url('/images/resources/finishingTrack.jpg');
   background-size: contain;
   align-self: center;
   transform: skewX(-15deg);
